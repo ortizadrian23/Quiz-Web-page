@@ -5,7 +5,19 @@ $("document").ready(function(){
 })
 
 $("document").ready(function(){
-  $("#a").click(function(){
-    $(".gone").toggle();
+$("#a").click(function(){
+    $(".boo").toggle();
   })
 })
+
+  $("document").ready(function(){
+    $("#c").click(function(){
+      $(".gone").toggle();
+    })
+  })
+
+  $("document").ready(function(){
+    $("#d").click(function(){
+      $(".bye").toggle();
+    })
+  })
